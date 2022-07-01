@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using clase14_ejercicio01.Modelos;
+
+var carta = new Carta();
+
+Console.WriteLine($"Carta creada: {carta.Numero} de {carta.Palo}");
+
+Console.ReadKey();
